@@ -1,10 +1,13 @@
 Transcriptomics
 
 Differential gene expression of mouse lung lymphocytes [Control vs OVA-Induced asthma mice]
+
 Database: GEO
+
 Link to FPKM file: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE212406&format=file&file=GSE212406%5Fgene%5Ffpkm%5Fmatrix%2Etxt%2Egz 
 
 workflow:
+
 GEO -> Asthma RNAseq data -> working environment as R -> extract only control vs test mice(72 h) -> Log transformation of FPKM -> QC -> PCA -> Identify upregulated and downregulated genes(bar plot) -> p value calc -> Volcano plot -> Heatmap -> GO analysis
 
 Results:
